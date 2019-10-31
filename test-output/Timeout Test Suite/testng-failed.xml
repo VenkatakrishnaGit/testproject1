@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Timeout Test Suite]" time-out="3000">
+  <test thread-count="5" name="Timeout Test(failed)" time-out="3000">
+    <classes>
+      <class name="com.AdvancedTestNG.webdriver.TestNGTimeoutTest">
+        <methods>
+          <include name="timeoutTestOne"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.AdvancedTestNG.webdriver.TestNGTimeoutTest -->
+    </classes>
+  </test> <!-- Timeout Test(failed) -->
+</suite> <!-- Failed suite [Timeout Test Suite] -->

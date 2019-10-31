@@ -1,0 +1,22 @@
+<suite name = "webdriver" paraller = "tests">
+<test name = "Test in Firefox">
+<parameter name = "browser" value = "FFX"/>
+<classes>
+<class name = "com.TestNGScripts.webdriver.ParallelTestsExecution"/>
+</classes>
+</test>
+<test name = "Test in GoogleChrome">
+<parameter name = "browser" value = "CRM"/>
+<classes>
+<class name = "com.TestNGScripts.webdriver.ParallelTestsExecution"/>
+</classes>
+</test>
+<test name = "Test in InternetExplorer">
+<parameter name = "browser" value = "IE"/>
+<classes>
+<class name = "com.TestNGScripts.webdriver.ParallelTestsExecution"/>
+</classes>
+</test>
+</suite>
+
+<!-- Selenium WebDriver Parallel Tests Execution Using TestNG - @Parameters testNG9 -->

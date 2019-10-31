@@ -1,0 +1,16 @@
+<suite name = "Suite One">
+<test name = "Test One">
+<classes>
+<class name = "com.TestNGOnePack.webdriver.ClassOne"/>
+<methods>
+<include name = "testmethodone"/>
+</methods>
+<class name = "com.TestNGTwoPack.webdriver.ClassTwo"/>
+</classes>
+<packages>
+<package name = "com.TestNGThreePack.webdriver"/>
+</packages>
+</test>
+</suite>
+
+<!-- Configure testng.xml file to Include and run selected webdriver test methods from few classes testNG4a -->

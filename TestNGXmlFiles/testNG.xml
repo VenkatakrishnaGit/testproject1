@@ -1,0 +1,10 @@
+<suite name = "Suite One" >
+<test name = "Test One">
+<classes>
+<class name = "com.TestNGOnePack.webdriver.ClassOne0"/>
+</classes>
+</test> 
+</suite>
+
+
+<!--  Creating And Running WebDriver Test Suit Using testng.xml File-->

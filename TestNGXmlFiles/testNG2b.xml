@@ -1,0 +1,21 @@
+<suite name = "Suite One">
+<test name = "Test one">
+<classes>
+<class name = "com.TestNGOnePack.webdriver.ClassOne"/>
+</classes>
+</test>
+<test name = "Test Two">
+<classes>
+<class name = "com.TestNGTwoPack.webdriver.ClassTwo"/>
+</classes>
+</test>
+<test name = "Test Three">
+<classes>
+<class name = "com.TestNGThreePack.webdriver.ClassTwo"/>
+<class name = "com.TestNGThreePack.webdriver.ClassOne"/>
+</classes>
+</test>
+</suite>
+
+
+<!-- Creating WebDriver Test Suite to run Multiple class in Multiple tests testNG2b -->

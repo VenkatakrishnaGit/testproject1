@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Simple Suite]">
+  <test thread-count="5" name="Simple Login Test by DP(failed)">
+    <classes>
+      <class name="com.TestNGScripts.webdriver.DDTbyDataProvider">
+        <methods>
+          <include name="LogIn_Test" invocation-numbers="1 2 3"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.TestNGScripts.webdriver.DDTbyDataProvider -->
+    </classes>
+  </test> <!-- Simple Login Test by DP(failed) -->
+</suite> <!-- Failed suite [Simple Suite] -->

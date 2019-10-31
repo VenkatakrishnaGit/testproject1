@@ -1,0 +1,9 @@
+<suite name = "Suite One" configfailurepolicy = "Continue">
+<test name = "Test One">
+<classes>
+<class name = "com.TestNGAssertions.webdriver.AssertTrue"/>
+</classes>
+</test>
+</suite>
+
+<!-- Selenium WebDriver assertTrue assertion example with TestNG -->

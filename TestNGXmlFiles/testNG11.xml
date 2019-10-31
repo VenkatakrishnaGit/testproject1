@@ -1,0 +1,13 @@
+<suite name = "Suite One" configfailurepolicy = "Continue">
+<listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+   </listeners>
+<test name = "Test One">
+<classes>
+<class name = "com.TestNGAssertions.webdriver.AssertNotEquals"/>
+</classes>
+</test>
+</suite>
+
+<!-- Example Of assertNotEquals In Selenium WebDriver With TestNG testNG11 -->

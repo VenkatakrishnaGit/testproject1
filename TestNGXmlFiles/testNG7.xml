@@ -1,0 +1,10 @@
+<suite name="Simple Suite">
+ <test name="Simple Skip Test">
+  <classes>
+   <class name = "com.TestNGScripts.webdriver.SkipTest"/>
+  </classes>
+ </test> 
+</suite>
+
+
+<!-- To Skip WebDriver Test In TestNG testNG7-->

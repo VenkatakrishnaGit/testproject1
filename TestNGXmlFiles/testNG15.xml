@@ -1,0 +1,9 @@
+<suite name = "Suite One" configfailurepolicy = "Continue">
+<test name = "Test One">
+<classes>
+<class name = "com.TestNGAssertions.webdriver.AssertNotNull"/>
+</classes>
+</test>
+</suite>
+
+<!-- Selenium WebDriver assertNotNull assertion example with TestNG -->

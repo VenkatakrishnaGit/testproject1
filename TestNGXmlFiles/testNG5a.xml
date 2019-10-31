@@ -1,0 +1,11 @@
+<suite name = "Suite One">
+<test name = "Test One">
+<packages>
+<package name = ".*">
+<include name = "com.TestNGOnePack.webdriver"/>
+</package>
+</packages>
+</test>
+</suite>
+
+<!-- Configuring testng.xml file to include only specific package in test suite from multiple packages testNG5a -->

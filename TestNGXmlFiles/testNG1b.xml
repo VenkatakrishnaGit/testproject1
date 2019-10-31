@@ -1,0 +1,16 @@
+<suite name = "Suite One">
+<test name = "Test one">
+<classes>
+<class name = "com.TestNGOnePack.webdriver.ClassOne"/>
+</classes>
+</test>
+<test name = "Test Two">
+<classes>
+<class name = "com.TestNGOnePack.webdriver.ClassTwo"/>
+</classes>
+</test>
+</suite>
+
+<!-- Configure testng.xml to run two classes in two tests -->
+
+

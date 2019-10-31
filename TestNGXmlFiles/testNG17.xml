@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite One">
+  <test name="DataProvider Test" >
+    <classes>
+      <class name="com.AdvancedTestNG.webdriver.LogInCase"/>
+      <class name="com.AdvancedTestNG.webdriver.FormSubmit"/>
+    </classes>
+  </test>
+</suite>

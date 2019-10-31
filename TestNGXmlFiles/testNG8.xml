@@ -1,0 +1,7 @@
+<suite name = "Simple Suite">
+<test name = "Simple Login Test by DP">
+<classes>
+<class name = "com.TestNGScripts.webdriver.DDTbyDataProvider"/>
+</classes>
+</test>
+</suite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [webdriver]">
+  <test thread-count="5" name="Test in InternetExplorer(failed)">
+    <parameter name="browser" value="IE"/>
+    <classes>
+      <class name="com.TestNGScripts.webdriver.ParallelTestsExecution">
+        <methods>
+          <include name="verify_Message"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.TestNGScripts.webdriver.ParallelTestsExecution -->
+    </classes>
+  </test> <!-- Test in InternetExplorer(failed) -->
+</suite> <!-- Failed suite [webdriver] -->

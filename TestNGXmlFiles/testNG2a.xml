@@ -1,0 +1,13 @@
+<suite name="Suite One">
+ <test name="Test One" >
+  <classes>
+   <class name="com.TestNGOnePack.webdriver.ClassOne" />
+   <class name="com.TestNGTwoPack.webdriver.ClassTwo" />
+   <class name="com.TestNGThreePack.webdriver.ClassOne" />
+   <class name="com.TestNGThreePack.webdriver.ClassTwo" />  
+  </classes>
+ </test> 
+</suite>
+
+
+<!-- Creating WebDriver Test Suite Using Classes From Different Packages testNG2a -->

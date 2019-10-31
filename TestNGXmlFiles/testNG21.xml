@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="ReportNG  Suite" verbose="1">
+ <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+   </listeners>
+    <test name="GeneratingInteractiveReportNGReports1  Test" >
+   <classes>
+    <class name="com.ReportNgReports.webdriver.GeneratingInteractiveReportNGReports1" />  
+   </classes>
+    </test>
+  
+    <test name="GeneratingInteractiveReportNGReports2  Test" >
+   <classes>  
+    <class name="com.ReportNgReports.webdriver.GeneratingInteractiveReportNGReports2" />
+   </classes>
+    </test>
+</suite>
+
+<!-- Generating Interactive ReportNG Reports For Selenium WebDriver Test -->

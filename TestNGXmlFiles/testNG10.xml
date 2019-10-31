@@ -1,0 +1,9 @@
+<suite name = "Suite One" configfailurepolicy = "Continue">
+<test name = "Test One">
+<classes>
+<class name = "com.TestNGAssertions.webdriver.AssertEquals"/>
+</classes>
+</test>
+</suite>
+
+<!-- Example Of assertEquals In Selenium WebDriver With TestNG testNG10 -->

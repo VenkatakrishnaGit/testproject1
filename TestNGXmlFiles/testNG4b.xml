@@ -1,0 +1,19 @@
+<suite name = "Suite One">
+<test name = "Test One">
+<classes>
+<class name = "com.TestNGOnePack.webdriver.ClassOne"/>
+<methods>
+<include name = "testmethodone"/>
+</methods>
+<class name = "com.TestNGTwoPack.webdriver.ClassTwo"/>
+<methods>
+<exclude name = "testmethodone"/>
+</methods>
+</classes>
+<packages>
+<package name = "com.TestNGThreePack.webdriver"/>
+</packages>
+</test>
+</suite>
+
+<!-- To exclude specific test method from class, We can use <exclude> tag inside <methods> tag testNG4b -->

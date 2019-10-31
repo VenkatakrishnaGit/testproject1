@@ -1,0 +1,13 @@
+<suite name = "Suite One">
+<test name = "Test One">
+<packages>
+<package name = "com.TestNGTwoPack.webdriver"/>
+<package name = "com.TestNGThreePack.webdriver"/>
+</packages>
+</test>
+</suite>
+
+
+<!-- Configure testng.xml to run selected packages from all packages 
+of webdriver project in single test suite  testNg3a-->
+

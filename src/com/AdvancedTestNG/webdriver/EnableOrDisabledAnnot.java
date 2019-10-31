@@ -1,0 +1,56 @@
+package com.AdvancedTestNG.webdriver;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+public class EnableOrDisabledAnnot {
+	
+	 WebDriver driver;
+	 WebElement dragElementFrom;
+
+	 @BeforeTest
+	 public void setup() throws Exception {
+	  System.out.println("In @BeforeTest Of EnableOrDisabledAnnot.");
+	  System.setProperty("webdriver.gecko.driver", "C:\\Users\\VenkatakrishnaY\\Downloads\\Lib Folder\\geckodriver-v0.20.0-win64\\geckodriver.exe");
+	  driver =new FirefoxDriver();     
+	  //driver.manage().window().maximize();
+	  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	  driver.get("http://only-testing-blog.blogspot.in/2014/04/calc.html");
+	 }
+	 
+	 @Test(priority=1)
+	 public void testCaseOne_EnableOrDisabledAnnot() {
+	  System.out.println("Executing testCaseOne_EnableOrDisabledAnnot.");
+	  driver.findElement(By.xpath("//input[@id='2']")).click();
+	  driver.findElement(By.xpath("//input[@id='plus']")).click();
+	  driver.findElement(By.xpath("//input[@id='6']")).click();
+	  driver.findElement(By.xpath("//input[@id='equals']")).click();
+	  String Result = driver.findElement(By.xpath("//input[@id='Resultbox']")).getAttribute("value");
+	  System.out.println("Result of testCaseOne_Test_One = "+Result);
+	 }
+	 
+	 @Test(priority=2 ,enabled = false)
+	 public void testCaseTwo_EnableOrDisabledAnnot() {
+	  System.out.println("Executing testCaseTwo_EnableOrDisabledAnnot.");
+	  driver.findElement(By.xpath("//input[@id='Resultbox']")).clear();
+	  driver.findElement(By.xpath("//input[@id='3']")).click();
+	  driver.findElement(By.xpath("//input[@id='plus']")).click();
+	  driver.findElement(By.xpath("//input[@id='7']")).click();
+	  driver.findElement(By.xpath("//input[@id='equals']")).click();
+	  String Result = driver.findElement(By.xpath("//input[@id='Resultbox']")).getAttribute("value");
+	  System.out.println("Result of testCaseTwo_Test_One = "+Result);
+	 }
+	 
+	 @AfterTest
+	 public void tearDown() {
+		 driver.quit();
+	 }
+
+}

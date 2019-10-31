@@ -1,0 +1,11 @@
+<suite name = "Suite One">
+<test name = "Test One">
+<packages>
+<package name = ".*"/>
+</packages>
+</test>
+</suite>
+
+
+<!-- to run all packages of your project, 
+you can configure your testng.xml using wildcard(.*) with package tag testNG3b -->

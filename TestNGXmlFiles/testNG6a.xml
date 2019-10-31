@@ -1,0 +1,18 @@
+<suite name = "Suite One">
+<test name = "Test Two">
+<classes>
+<class name = "com.TestNGOnePack.webdriver.ClassOne">
+<methods>
+<include name = ".*two.*"/>
+</methods>
+</class>
+<class name = "com.TestNGTwoPack.webdriver.ClassTwo">
+<methods>
+<exclude name = ".*two.*"/>
+</methods>
+</class>
+</classes>
+</test>
+</suite>
+
+<!-- Including/Excluding test methods using regular expression testNG6a -->

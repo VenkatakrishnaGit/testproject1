@@ -1,0 +1,11 @@
+<suite name = "Suite One">
+<test name = "Test One">
+<packages>
+<package name = ".*">
+<exclude name = "com.TestNGThreePack.webdriver" />
+</package>
+</packages>
+</test>
+</suite>
+
+<!-- Configuring testng.xml file to exclude specific package from execution testNG5b -->

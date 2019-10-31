@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="preserve-order Suite">
+  <test name="preserve-order Test" preserve-order="true">
+    <classes>
+      <class name="com.AdvancedTestNG.webdriver.POTestOne"/>
+      <class name="com.AdvancedTestNG.webdriver.POTestTwo"/>
+      <class name="com.AdvancedTestNG.webdriver.POTestThree"/>
+    </classes>
+  </test>
+</suite>
+
+<!-- Use Of preserve-order In TestNG With Selenium WebDriver -->
+
+<!-- testng.xml (with preserve-order="true") -->
+<!-- testng.xml (with preserve-order="false") -->
+

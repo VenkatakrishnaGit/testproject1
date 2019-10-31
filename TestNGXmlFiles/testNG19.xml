@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Timeout Test Suite" time-out="3000" verbose="1">
+  <test name="Timeout Test" >
+    <classes>
+      <class name="com.AdvancedTestNG.webdriver.TestNGTimeoutTest"/>      
+    </classes>
+  </test>
+</suite>

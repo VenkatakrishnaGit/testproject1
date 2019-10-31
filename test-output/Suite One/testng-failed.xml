@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite One]">
+  <test thread-count="5" name="DataProvider Test(failed)">
+    <classes>
+      <class name="com.AdvancedTestNG.webdriver.LogInCase">
+        <methods>
+          <include name="setUp"/>
+          <include name="Login" invocation-numbers="2"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.AdvancedTestNG.webdriver.LogInCase -->
+      <class name="com.AdvancedTestNG.webdriver.FormSubmit">
+        <methods>
+          <include name="Submit" invocation-numbers="1 2"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.AdvancedTestNG.webdriver.FormSubmit -->
+    </classes>
+  </test> <!-- DataProvider Test(failed) -->
+</suite> <!-- Failed suite [Suite One] -->

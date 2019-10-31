@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Group Test Suite" verbose="1">
+  <test name="Group Test" >
+        <groups>
+  <run>
+   <include name="check-mail" />
+  </run>
+ </groups>
+ 
+ <classes>
+  <class name="com.AdvancedTestNG.webdriver.GroupAndRunSeleniumTestCases" />
+ </classes>
+  </test>
+</suite>
+
+<!-- How To Group And Run Selenium Test Cases Using Testng -->
